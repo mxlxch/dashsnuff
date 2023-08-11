@@ -55,8 +55,7 @@ blink {
 
 @font-face {
   font-family: "Wingdings 3";
-  src: url("wingdings_3.woff2") format("woff2"),
-    url("wingdings_3.woff") format("woff");
+  src: url("font.woff2") format("woff2"), url("font.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
