@@ -1,0 +1,62 @@
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+blink {
+  -webkit-animation: blink 1.5s steps(1) infinite;
+  -moz-animation: blink 1.5s steps(1) infinite;
+  -o-animation: blink 1.5s steps(1) infinite;
+  animation: blink 1.5s steps(1) infinite;
+}
+
+@font-face {
+  font-family: "Wingdings 3";
+  src: url("wingdings_3.woff2") format("woff2"),
+    url("wingdings_3.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
